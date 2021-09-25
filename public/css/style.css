@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .05);
+
+}
+
+.wrapper header{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+header label{
+    height: 100%;
+    width: 30%;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+header label:nth-child(2){
+    width: 40%;
+}
+
+header .slider{
+    position: absolute;
+    left: 50%;
+    height: 85%;
+    width: 120px;
+    border-radius: inherit;
+    transform: translateX(-50%);
+    background: linear-gradient(145deg, #d5a3ff 0%, #77a5f8 100%);
+}
+
+
+/* Asked question */
+.accordion-link .remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    border-left: 2px solid lawngreen;
+    transition: max-height 650ms;
+    
+}
+.answer::before{
+    content: '';
+    position: absolute;
+    width: 0.6rem;
+    height: 90%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.accordion-item:target  .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .add{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .remove{
+    display: block;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #5da9fa;
+    opacity: .7;  /*Set to match the Tailwind colour you want the active one to be */
+}
