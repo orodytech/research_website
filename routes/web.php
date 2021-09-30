@@ -30,4 +30,28 @@ Route::get('/terms', function () {
 });
 
 
+Route::get('/reviews', function () {
+    return view('pages.reviews');
+});
+
+Route::get('/policies', function () {
+    return view('pages.policies');
+});
+
+Route::get('/register', function () {
+    return view('pages.register');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/samples', function () {
+    return view('pages.samples');
+});
+
+Route::get('/order', function () {
+    return view('pages.order');
+});
+
 

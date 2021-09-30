@@ -1,3 +1,4 @@
+
 <footer class="footer font-Poppins bg-blue-900 relative pt-1 pb-4 border-b-2 border-blue-700 rounded-bt-3xl">
     <div class="container mx-auto px-6 pb-5">
 
@@ -7,16 +8,18 @@
                     <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Address</span>
                     <span><a href="#" class="text-gray-400  text-sm hover:text-white">Street Location</a></span>
                     <span><a href="#" class="text-gray-400  text-sm hover:text-white">Street Number</a></span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Email:</b> info@vyfco.com</a></span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Contact:</b> +1 xxx xxx xxx xxx</a></span>
+                    <span><a href="mailto:info@vyfco.com" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Email:</b> info@vyfco.com</a></span>
+                    <span><a href="tel:+254701682388" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Contact:</b> +1 xxx xxx xxx xxx</a></span>
+                    <span><a href="{{ url('/terms') }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Terms of Service</a></span>
+                    <span><a href="{{ url('/policies') }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Policy</a></span>
                 </div>
 
                 <div class="flex flex-col">
-                    <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Topics We Cover</span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white">Argumentative Essay</a></span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white">Research Proposal</a></span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white">Dissertation</a></span>
-                    <span><a href="#" class="text-gray-400  text-sm hover:text-white">Case Study</a></span>
+                    <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Our Services</span>
+                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Writing</a></span>
+                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Rewriting</a></span>
+                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Proofreading</a></span>
+                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Editing</a></span>
                 </div>
 
                 <div class="flex flex-col">
@@ -38,26 +41,23 @@
         <div class="flex pb-5 px-3 m-auto pt-2 
             border-t border-b border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">
-            <div class="mt-2">
+            <div class="mt-2 text-center">
                 © Copyright 2021 | Designed by Orodytech Solutions | All Rights Reserved.
             </div>
 
             <!-- Required Unicons -->
-            <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                <a href="#" class="w-6 mx-1">
+            <div class="justify-center lg:justify-items-end md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                <a href="https://www.facebook.com/Vyfco-Writers-103017768818949" class="w-6 mx-1">
                     <i class="uil uil-facebook-f"></i>
                 </a>
-                <a href="#" class="w-6 mx-1">
+                <a href="https://twitter.com/NdireStephen" class="w-6 mx-1">
                     <i class="uil uil-twitter-alt"></i>
                 </a>
-                <a href="#" class="w-6 mx-1">
+                <a href="https://www.youtube.com/channel/UCbYb_nI2qDy-cF_G7AmvDQw" class="w-6 mx-1">
                     <i class="uil uil-youtube"></i>
                 </a>
-                <a href="#" class="w-6 mx-1">
+                <a href="https://www.linkedin.com/in/vyfco-company-470108222" class="w-6 mx-1">
                     <i class="uil uil-linkedin"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-instagram"></i>
                 </a>
             </div>
         </div>

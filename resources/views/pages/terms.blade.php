@@ -9,18 +9,19 @@
             an order on this website, you confirm that you have read, understood and agreed 
             to our Terms of use. 
         </p>
-        <p class="text-gray-500 text-justify mb-2">From time to time, we may amend and modify the existing terms, add new terms, or even introduce changes to the existing terms. It is your responsibility to read these updated 
-            terms more often to have a deeper understanding of our Terms of Use.
+        <p class="text-gray-500 text-justify mb-2">From time to time, we may amend and modify the existing terms, add new terms, or even 
+            introduce changes to the existing terms. It is your responsibility to read these updated terms more 
+            often to have a deeper understanding of our Terms of Use.
         </p>
         <p class="text-justify font-semibold italic mb-2">NB: If you do not accept any of our terms, please do not use or access this website.</p>
     </div>
     <div class="content2 p-5">
         <h4 class="font-semibold capitalize text-blue-800 pb-2">Interpretation of our terms</h4>
         <ul>
-            <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“Account”</span>– This is the profile used by the user to access this website.</li>
+            <li class="text-red-400 mb-2 text-justify"><span class="text-red-400 italic font-semibold">“Account”</span>– This is the profile used by the user to access this website.</li>
             <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“Terms of Use”, “ToU”, “Terms”</span>– These are rules that govern the user’s access to use this website. This also includes <span class="text-black">cookie policy</span> as well as <span class="text-black">privacy policy.</span></li>
             <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“User”, “You”</span>– Any individual using our website to obtain information. Whether registered or not.</li>
-            <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“vyfco’, “we”, “us”</span>– Means the company responsible for providing academic services to the user. We are registered under the laws of the United Kingdom.</li>
+            <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“vyfco’, “we”, “us”</span>– Means the company responsible for providing academic services to the user. <span class="text-red-400">We are registered under the laws of the United Kingdom.</span> </li>
             <li class="text-gray-500 mb-2 text-justify"><span class="text-gray-900 italic font-semibold">“Website”</span>– means vyfco.com</li>
         </ul>
     </div>
@@ -44,7 +45,7 @@
     </div>
     <div class="content5 p-5">
         <h4 class="font-semibold capitalize text-center text-blue-800 pb-2">4. Your personal balance</h4>
-        <p class="text-gray-500 text-justify mb-2"><span class="text-black">4.1</span> When paying for your order, only Visa, MasterCard or your personal balance can be used. Should you decide to partially or fully reimburse your money, You will be given an option to proceed according to Money back Guarantee Policy or transfere the funds to your personal balance.</p>
+        <p class="text-gray-500 text-justify mb-2"><span class="text-black">4.1</span> When paying for your order, only Visa, MasterCard or your personal balance can be used. Should you decide to partially or fully reimburse your money, You will be given an option to proceed according to <span class="text-red-400">Money back Guarantee Policy</span> or transfere the funds to your personal balance.</p>
         <p class="text-gray-500 text-justify mb-2"><span class="text-black">4.2</span> Your amount in personal balance has no limit or expiration. It may be used to make payments in your future orders.</p>
     </div>
 

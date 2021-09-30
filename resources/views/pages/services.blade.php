@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('services')
-<section class="bg-gradient-to-b from-white  to-blue-600">
+<section class="bg-gradient-to-b from-indigo-500  to-blue-600">
 <div>
   <div class="flex py-10 flex-col mx-10 lg:mx-5">
-        <h1 class="pb-5 text-4xl text-center font-semibold">Our <span class="text-blue-600">Services</span></h1>
-        <p class="text-justify lg:text-xl text-gray-700">We will change your experience by giving you exactly what you need. Whatever you require, our professionals 
+        <h1 class="pb-5 text-4xl text-yellow-400 text-center font-semibold">Our <span class="text-white">Services</span></h1>
+        <p class="text-justify lg:text-xl text-gray-200">We will change your experience by giving you exactly what you need. Whatever you require, our professionals 
           will complete it promptly, precisely, and with unparalleled professionalism.</p>
-        <p class="text-gray-700 lg:text-xl py-4">We offer services on the following Topics/Types of Papers:-</p>
+        <p class="text-gray-200 lg:text-xl py-4">We offer services on the following Topics/Types of Papers:-</p>
 <!-------- Topics/type of Papers ---------->
       <div class="flex flex-col lg:grid-col-3 md:flex-row md:space-x-4 sm:flex-row sm:space-x-3">
         
@@ -328,7 +328,7 @@
           </div>
       </div>
   
-      <!------- Order Form -------->
+      {{-- <!------- Order Form -------->
 
       <section class="max-w-4xl p-6 mx-auto bg-indigo-600 rounded-md shadow-md dark:bg-gray-800 mt-20">
         <h1 class="text-xl font-bold text-white capitalize dark:text-white">PLACE ORDER</h1>
@@ -394,7 +394,7 @@
             <div class="flex justify-end mt-6">
                 <button class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-pink-500 rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600">Save</button>
             </div>
-        </form>
+        </form> --}}
     </section>
 
 
