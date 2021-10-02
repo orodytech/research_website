@@ -9,28 +9,25 @@
                     <span><a href="#" class="text-gray-400  text-sm hover:text-white">Street Location</a></span>
                     <span><a href="#" class="text-gray-400  text-sm hover:text-white">Street Number</a></span>
                     <span><a href="mailto:info@vyfco.com" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Email:</b> info@vyfco.com</a></span>
-                    <span><a href="tel:+254701682388" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Contact:</b> +1 xxx xxx xxx xxx</a></span>
-                    <span><a href="{{ url('/terms') }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Terms of Service</a></span>
-                    <span><a href="{{ url('/policies') }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Policy</a></span>
+                    <span><a href="#" class="text-gray-400  text-sm hover:text-white"><b class="text-gray-200">Contact:</b> +1 xxx xxx xxx xxx</a></span>
+                    <span><a href="{{ route('terms')  }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Terms of Service</a></span>
+                    <span><a href="{{ route('policy')  }}" class="text-gray-400 cursor-pointer  text-sm hover:text-white">Policy</a></span>
                 </div>
 
                 <div class="flex flex-col">
                     <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Our Services</span>
-                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Writing</a></span>
-                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Rewriting</a></span>
-                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Proofreading</a></span>
-                    <span><a href="{{ url('/services') }}" class="text-gray-400  text-sm hover:text-white">Editing</a></span>
+                    <span><a href="{{ route('services') }}" class="text-gray-400  text-sm hover:text-white">Writing</a></span>
+                    <span><a href="{{ route('services') }}" class="text-gray-400  text-sm hover:text-white">Rewriting</a></span>
+                    <span><a href="{{ route('services') }}" class="text-gray-400  text-sm hover:text-white">Proofreading</a></span>
+                    <span><a href="{{ route('services') }}" class="text-gray-400  text-sm hover:text-white">Editing</a></span>
                 </div>
 
                 <div class="flex flex-col">
                     <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Payment Methods</span>
-                    <div class="mb-3 flex-col -mx-2">
-                        <div class="px-2">
-                                <img src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" class="h-8 ml-3">
-                        </div>
-                        <div class="px-2 py-2">
-                                <img src="https://www.sketchappsources.com/resources/source-image/PayPalCard.png" class="h-8 ml-3">
-                        </div>
+                    <div class="mb-3 flex-row text-5xl">
+                            <i class="fa fa-cc-visa text-gray-400 hover:text-yellow-400" aria-hidden="true"></i>
+                            <i class="fa fa-cc-paypal text-gray-400 hover:text-blue-400" aria-hidden="true"></i>
+                            <i class="fa fa-cc-mastercard text-gray-400 hover:text-yellow-600" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -42,21 +39,21 @@
             border-t border-b border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">
             <div class="mt-2 text-center">
-                © Copyright 2021 | Designed by Orodytech Solutions | All Rights Reserved.
+                © Copyright 2021 | Vyfco Research & Writing | Designed by Orodytech Solutions | All Rights Reserved.
             </div>
 
             <!-- Required Unicons -->
             <div class="justify-center lg:justify-items-end md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                <a href="https://www.facebook.com/Vyfco-Writers-103017768818949" class="w-6 mx-1">
+                <a href="https://www.facebook.com/Vyfco-Writers-103017768818949" target="_blank" class="w-6 mx-1">
                     <i class="uil uil-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/NdireStephen" class="w-6 mx-1">
+                <a href="https://twitter.com/NdireStephen" target="_blank" class="w-6 mx-1">
                     <i class="uil uil-twitter-alt"></i>
                 </a>
-                <a href="https://www.youtube.com/channel/UCbYb_nI2qDy-cF_G7AmvDQw" class="w-6 mx-1">
+                <a href="https://www.youtube.com/channel/UCbYb_nI2qDy-cF_G7AmvDQw" target="_blank" class="w-6 mx-1">
                     <i class="uil uil-youtube"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vyfco-company-470108222" class="w-6 mx-1">
+                <a href="https://www.linkedin.com/in/vyfco-company-470108222" target="_blank" class="w-6 mx-1">
                     <i class="uil uil-linkedin"></i>
                 </a>
             </div>

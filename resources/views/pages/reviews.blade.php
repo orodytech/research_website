@@ -8,33 +8,33 @@
     <div class="rating flex flex-col items-center">
         <h3 class="text-2xl text-indigo-600 mt-3">Reviewing</h3>
         <div class="rate1 flex flex-col md:flex-row m-2">
-            <p class="md:mr-4 mb-4 text-blue-800 italic font-bold shadow-md p-2 rounded-md">
-                Not Satisfied:<i class="fa fa-star pl-2 text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star-half-full text-yellow-600"></i>
-                <i class="fa fa-star-o text-yellow-600"></i>
-                <i class="fa fa-star-o text-yellow-600"></i>
+            <p class="md:mr-4 mb-4 text-white italic font-bold bg-black shadow-md p-2 rounded-md">
+                Less Satisfied:<i class="fa fa-star pl-2 text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star-half-full text-yellow-400"></i>
+                <i class="fa fa-star-o text-yellow-400"></i>
+                <i class="fa fa-star-o text-yellow-400"></i>
 
             </p>
-            <p class="md:mr-4 mb-4 text-blue-800 italic font-bold shadow-md p-2 rounded-md">
-                Satisfied:<i class="fa fa-star pl-2 text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star-half-full text-yellow-600"></i>
-                <i class="fa fa-star-o text-yellow-600"></i>
+            <p class="md:mr-4 mb-4 text-white italic font-bold bg-black shadow-md p-2 rounded-md">
+                Satisfied:<i class="fa fa-star pl-2 text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star-half-full text-yellow-400"></i>
+                <i class="fa fa-star-o text-yellow-400"></i>
             </p>
-            <p class="md:mr-4 mb-4 text-blue-800 italic font-bold shadow-md p-2 rounded-md">
-                Very Satisfied:<i class="fa fa-star pl-2 text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star text-yellow-600"></i>
-                <i class="fa fa-star-half-full text-yellow-600"></i>
+            <p class="md:mr-4 mb-4 text-white italic font-bold bg-black shadow-md p-2 rounded-md">
+                Very Satisfied:<i class="fa fa-star pl-2 text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
+                <i class="fa fa-star text-yellow-400"></i>
             </p>
         </div>
     </div>
     <div class="md:flex m-6 gap-4 md:divide-x-2">
         <div class="content md:w-1/2">
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -58,7 +58,7 @@
             </div>
             
             {{-- review 2 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile1.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -82,7 +82,7 @@
             </div>
 
             {{-- review 3 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile2.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -106,7 +106,7 @@
             </div>
 
             {{-- review 4 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile3.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -129,7 +129,7 @@
                 </div>
             </div>
             {{-- review 5 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile4.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -152,7 +152,7 @@
                 </div>
             </div>
             {{-- review 6 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile5.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -178,7 +178,7 @@
 
         <div class="content md:w-1/2 md:pl-4">
             {{-- review 7 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile6.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -202,7 +202,7 @@
             </div>
 
             {{-- review 8 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile7.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -226,7 +226,7 @@
             </div>
 
             {{-- review 9 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile8.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -249,7 +249,7 @@
                 </div>
             </div>
             {{-- review 10 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile9.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">
@@ -272,7 +272,7 @@
                 </div>
             </div>
             {{-- review 11 --}}
-            <div class="content flex flex-col shadow-md rounded-lg mb-4 p-2">
+            <div class="content flex flex-col border-2 border-white shadow-md rounded-lg mb-4 p-2">
                 <div class="person_details flex  justify-between">
                     <div class="profile flex flex-1 flex-col items-center">
                         <img src="{{ asset('img/profile/profile10.jpg') }}" alt="" class="h-12 w-12 border-2 border-yellow-400 rounded-full">

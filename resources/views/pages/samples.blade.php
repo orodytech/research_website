@@ -361,13 +361,13 @@
         <div class="order-form p-4 shadow-lg rounded-lg">
             <h2 class="text-center text-2xl font-semibold text-gray-800">Our Services</h2>
             <div class="divide-y-2">
-                <p class="text-gray-500 text-xl py-2"><i class="fa fa-cart-arrow-down mr-4 text-blue-400" aria-hidden="true"></i>
+                <p class="text-gray-500 text-xl py-2"><i class="fa fa fa-diamond mr-4 text-blue-400" aria-hidden="true"></i>
                     Writing</p>
-                <p class="text-gray-500 text-xl py-2"><i class="fa fa-cart-arrow-down mr-4 text-blue-400" aria-hidden="true"></i>
+                <p class="text-gray-500 text-xl py-2"><i class="fa fa fa-diamond mr-4 text-blue-400" aria-hidden="true"></i>
                         Proofreading</p>
-                <p class="text-gray-500 text-xl py-2"><i class="fa fa-cart-arrow-down mr-4 text-blue-400" aria-hidden="true"></i>
+                <p class="text-gray-500 text-xl py-2"><i class="fa fa fa-diamond mr-4 text-blue-400" aria-hidden="true"></i>
                             Editing</p>
-                            <p class="text-gray-500 text-xl py-2"><i class="fa fa-cart-arrow-down mr-4 text-blue-400" aria-hidden="true"></i>
+                            <p class="text-gray-500 text-xl py-2"><i class="fa fa fa-diamond mr-4 text-blue-400" aria-hidden="true"></i>
                                 Rewriting</p>
             </div>
             <div class="flex justify-center mt-4">

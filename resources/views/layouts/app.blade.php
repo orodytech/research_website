@@ -30,6 +30,7 @@
 		 @yield('contact')
 		 @yield('samples')
 		 @yield('order')
+		 @yield('login')
 		 
 		@include('inc.footer')
 		{{-- jQuery --}}

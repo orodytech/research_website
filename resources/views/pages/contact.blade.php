@@ -84,41 +84,39 @@
                 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div class="mt-8 overflow-hidden">
                         <div class="grid grid-cols-1 md:grid-cols-2">
-                            <div class="p-6 mr-2 bg-gray-100 rounded-md dark:bg-gray-800 sm:rounded-lg">
-                                <h1 class="text-4xl capitalize sm:text-5xl text-indigo-600 dark:text-white font-extrabold tracking-tight">
+                            <div class="p-6 mr-2 bg-black bg-opacity-60 rounded-md  sm:rounded-lg">
+                                <h1 class="text-4xl capitalize sm:text-5xl text-white font-extrabold tracking-tight">
                                     Get in touch
                                 </h1>
-                                <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
-                                    Get Help with a team
+                                <p class="text-normal text-lg sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">
+                                    Get Help With Our team
                                 </p>
         
-                                <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
-                                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
-                                  </svg>
+                                <div class="flex items-center mt-24 text-gray-300">
+                                  <div class="text-3xl">
+                                    <i class="fa fa-location-arrow text-blue-500" aria-hidden="true"></i>
+                                  </div>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                        Name, Street, State,
-                                        Postal Code
+                                       <p>Name, Street, State,
+                                       <br>Postal Code</p> 
                                     </div>
                                 </div>
-        
-                                <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
-                                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                                    <path d="M16.707 3.293a1 1 0 010 1.414L15.414 6l1.293 1.293a1 1 0 01-1.414 1.414L14 7.414l-1.293 1.293a1 1 0 11-1.414-1.414L12.586 6l-1.293-1.293a1 1 0 011.414-1.414L14 4.586l1.293-1.293a1 1 0 011.414 0z" />
-                                  </svg>
+
+                                <div class="flex items-center mt-4 text-gray-300">
+                                  <div class="text-3xl">
+                                    <i class="fa fa-envelope text-blue-500" aria-hidden="true"></i>
+                                  </div>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                        + xxx xxx xx
+                                       <p>info@vyfco.com</p> 
                                     </div>
                                 </div>
-        
-                                <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                                  </svg>
+
+                                <div class="flex items-center mt-4 text-gray-300">
+                                  <div class="text-3xl">
+                                    <i class="fa fa-phone text-blue-500" aria-hidden="true"></i>
+                                  </div>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                        info@vyfco.com
+                                       <p>+x xxx xxx xxx</p> 
                                     </div>
                                 </div>
                             </div>
